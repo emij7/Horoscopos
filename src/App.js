@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css';
+import Header from './components/Header'
+import Signos from './components/Signos'
 
 function App() {
   return (
     <div className="App">
-      <section className="App-content">
-      </section>
+      <Header />
+      <Signos />
     </div>
   );
 }
