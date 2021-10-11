@@ -3,6 +3,7 @@ import HorosArabe from "./HorosArabe"
 import HorosCelta from "./HorosCelta"
 import HorosChino from "./HorosChino"
 import HorosEgipcio from "./HorosEgipcio"
+import HorosGitano from "./HorosGitano"
 import HorosMaya from "./HorosMaya"
 import HorosZodiaco from "./HorosZodiaco"
 
@@ -21,6 +22,7 @@ const ListadoSignos = (props) =>{
             <HorosMaya fecha = {fechaDiaMes}/>
             <HorosCelta fecha = {fechaDiaMes}/>
             <HorosEgipcio fecha = {fechaDiaMes}/>
+            <HorosGitano fecha = {fechaDiaMes}/>
         </div>
     )
 }
