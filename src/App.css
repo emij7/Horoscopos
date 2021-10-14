@@ -8,3 +8,84 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.horos__box {
+  border: 0.2rem solid blue;
+  margin: 0.3rem;
+}
+.horos__box--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horos__box--titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horos__container {
+  margin-bottom: 3.3rem;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title h1,
+h2 {
+  text-align: center;
+}
+.date-box {
+  display: flex;
+  justify-content: center;
+}
+.date-box__button {
+  background-color: cadetblue;
+  /* color: white; */
+  font-size: 1rem;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  height: 3rem;
+}
+.date-box__button:hover {
+  background-color: rgb(178, 252, 252);
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 5px 1px #000000;
+  box-shadow: 2px 2px 5px 1px #000000;
+}
+.date-box__button--remove {
+  background-color: tomato;
+  /* color: white; */
+  margin-block: 1rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  height: 3rem;
+}
+.date-box__button--remove:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 5px 1px #000000;
+  box-shadow: 2px 2px 5px 1px #000000;
+}
+.date-box input {
+  font-size: 1rem;
+  border: 0.2rem outset cadetblue;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 3rem;
+  width: 100%;
+  background-color: cadetblue;
+  border-top: 0.3rem solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links {
+  display: flex;
+  margin-inline: 1rem;
+}
+.footer h5 {
+  margin-inline: 1rem;
+}

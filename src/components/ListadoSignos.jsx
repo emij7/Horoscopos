@@ -14,7 +14,7 @@ const ListadoSignos = (props) =>{
     let fechaAnio = parseInt(props.fecha.toString().slice(0,4))
     fechaDiaMes = Number(fechaDiaMes.match(regNum).join(''))
     return(
-        <div>
+        <div className='horos__container'>
             <p>Signos</p>
             <HorosZodiaco fecha={fechaDiaMes}/>
             <HorosChino fecha={fechaAnio}/>
