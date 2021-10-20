@@ -1,25 +1,26 @@
+import listadoAlquimista from "./listadoAlquimista";
 
 const conversorAlquimista = (numero) => {
     if (numero === 0) {
-        return 'Cobre'
+        return listadoAlquimista.Cobre
     } else if (numero === 1) {
-        return 'Plata'
+        return listadoAlquimista.Plata
     } else if (numero === 2) {
-        return 'Hierro'
+        return listadoAlquimista.Hierro
     } else if (numero === 3) {
-        return 'Mercurio'
+        return listadoAlquimista.Mercurio
     } else if (numero === 4) {
-        return 'Zinc'
+        return listadoAlquimista.Zinc
     } else if (numero === 5) {
-        return 'Estaño'
+        return listadoAlquimista.Estaño
     } else if (numero === 6) {
-        return 'Plomo'
+        return listadoAlquimista.Plomo
     } else if (numero === 7) {
-        return 'Platino'
+        return listadoAlquimista.Platino
     } else if (numero === 8) {
-        return 'Niquel'
+        return listadoAlquimista.Niquel
     } else if (numero === 9) {
-        return 'Oro'
+        return listadoAlquimista.Oro
     }
 
 };

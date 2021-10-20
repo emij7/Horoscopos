@@ -1,29 +1,30 @@
+import listadoChino from "./listadoChino";
 
 const calculoChino = (fecha) => {
     if (fecha % 12 === 0) {
-        return 'Mono'
+        return listadoChino.Mono
     } else if (fecha % 12 === 1) {
-        return 'Gallo'
+        return listadoChino.Gallo
     } else if (fecha % 12 === 2) {
-        return 'Perro'
+        return listadoChino.Perro
     } else if (fecha % 12 === 3) {
-        return 'Cerdo'
+        return listadoChino.Cerdo
     } else if (fecha % 12 === 4) {
-        return 'Rata'
+        return listadoChino.Rata
     } else if (fecha % 12 === 5) {
-        return 'Buey'
+        return listadoChino.Buey
     } else if (fecha % 12 === 6) {
-        return 'Tigre'
+        return listadoChino.Tigre
     } else if (fecha % 12 === 7) {
-        return 'Conejo'
+        return listadoChino.Conejo
     } else if (fecha % 12 === 8) {
-        return 'Dragón'
+        return listadoChino.Dragon
     } else if (fecha % 12 === 9) {
-        return 'Serpiente'
+        return listadoChino.Serpiente
     } else if (fecha % 12 === 10) {
-        return 'Caballo'
+        return listadoChino.Caballo
     } else if (fecha % 12 === 11) {
-        return 'Cabra'
+        return listadoChino.Cabra
     }
 };
 

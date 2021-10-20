@@ -8,20 +8,35 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* .App {
+  background-image: linear-gradient(
+    to bottom,
+    #273f60,
+    #3a7085,
+    #6ba0a1,
+    #add0bd,
+    #f6ffe3
+  );
+} */
 
 .horos__box {
-  border: 0.2rem solid blue;
+  border: 0.2rem outset cadetblue;
   margin: 0.3rem;
+  background-color: white;
 }
 .horos__box--info {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.horos__box--info p {
+  text-align: center;
+}
 .horos__box--titles {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .horos__container {
   margin-bottom: 3.3rem;
@@ -31,9 +46,19 @@
   flex-direction: column;
   align-items: center;
 }
-.title h1,
-h2 {
+.title h1 {
   text-align: center;
+  text-shadow: #fff 0px 0px 5px, cadetblue -15px 0px 10px, #fff 0px 0px 15px,
+    #197791 15px 0px 20px, #000000 0px 0px 30px, cadetblue 0px -10px 35px,
+    #2d3dff 0px 0px 40px, cadetblue 0px 0px 45px, cadetblue 0px 20px 30px,
+    3px 8px 20px rgb(61 45 206 / 0%);
+  /* color: #ffffff; */
+}
+.title h4 {
+  text-align: center;
+  text-shadow: #fff 0px 0px 5px, cadetblue 0px 0px 6px, #fff 0px 0px 7px,
+    #197791 0px 0px 5px, #000000 0px 0px 7px, cadetblue 0px 0px 8px,
+    #2d3dff 0px 0px 6px, 3px 8px 20px rgb(61 45 206 / 0%);
 }
 .date-box {
   display: flex;
@@ -74,11 +99,12 @@ h2 {
 }
 .footer {
   position: fixed;
+  color: white;
   bottom: 0px;
   height: 3rem;
   width: 100%;
-  background-color: cadetblue;
-  border-top: 0.3rem solid black;
+  background-color: black;
+  border-top: 0.3rem solid cadetblue;
   display: flex;
   justify-content: space-between;
 }
