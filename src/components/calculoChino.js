@@ -1,4 +1,4 @@
-import listadoChino from "./listadoChino";
+import listadoChino from "./listados/listadoChino";
 
 const calculoChino = (fecha) => {
     if (fecha % 12 === 0) {

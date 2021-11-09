@@ -1,13 +1,13 @@
-import cobre from '../images/alquimista/cobre.png'
-import plata from '../images/alquimista/plata.png'
-import hierro from '../images/alquimista/hierro.png'
-import mercurio from '../images/alquimista/mercurio.png'
-import zinc from '../images/alquimista/zinc.png'
-import estano from '../images/alquimista/estano.png'
-import plomo from '../images/alquimista/plomo.png'
-import niquel from '../images/alquimista/niquel.png'
-import oro from '../images/alquimista/oro.png'
-import platino from '../images/alquimista/platino.png'
+import cobre from '../../images/alquimista/cobre.png'
+import plata from '../../images/alquimista/plata.png'
+import hierro from '../../images/alquimista/hierro.png'
+import mercurio from '../../images/alquimista/mercurio.png'
+import zinc from '../../images/alquimista/zinc.png'
+import estano from '../../images/alquimista/estano.png'
+import plomo from '../../images/alquimista/plomo.png'
+import niquel from '../../images/alquimista/niquel.png'
+import oro from '../../images/alquimista/oro.png'
+import platino from '../../images/alquimista/platino.png'
 
 
 const listadoAlquimista = {

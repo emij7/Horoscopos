@@ -1,4 +1,4 @@
-import listadoAlquimista from "./listadoAlquimista";
+import listadoAlquimista from "./listados/listadoAlquimista";
 
 const conversorAlquimista = (numero) => {
     if (numero === 0) {

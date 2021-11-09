@@ -1,29 +1,30 @@
+import listadoArabe from "./listados/listadoArabe"
 
 const calculoArabe = (fecha) => {
     if (fecha > 120 && fecha < 220) {
-        return 'Arma larga -> Honda'
+        return listadoArabe.Honda
     } else if (fecha > 219 && fecha < 321) {
-        return 'Arma mediana -> Hacha'
+        return listadoArabe.Hacha
     } else if (fecha > 320 && fecha < 421) {
-        return 'Arma corta -> Puñal'
+        return listadoArabe.Punal
     } else if (fecha > 420 && fecha < 521) {
-        return 'Arma mediana -> Clava'
+        return listadoArabe.Clava
     } else if (fecha > 520 && fecha < 622) {
-        return 'Arma mediana -> Maza'
+        return listadoArabe.Maza
     } else if (fecha > 621 && fecha < 724) {
-        return 'Arma corta -> Cuchillo'
+        return listadoArabe.Cuchillo
     } else if (fecha > 723 && fecha < 824) {
-        return 'Arma larga -> Alfanje'
+        return listadoArabe.Alfanje
     } else if (fecha > 823 && fecha < 924) {
-        return 'Arma corta -> Machete'
+        return listadoArabe.Machete
     } else if (fecha > 923 && fecha < 1023) {
-        return 'Arma mediana -> Cadena'
+        return listadoArabe.Cadena
     } else if (fecha > 1022 && fecha < 1123) {
-        return 'Arma corta -> Gumia'
+        return listadoArabe.Gumia
     } else if (fecha > 1122 && fecha < 1222) {
-        return 'Arma larga -> Arco'
+        return listadoArabe.Arco
     } else if (fecha > 1221 || fecha < 121) {
-        return 'Arma larga -> Lanza'
+        return listadoArabe.Lanza
     }
 }
 

@@ -1,4 +1,4 @@
-import listadoZodiaco from "./listadoZodiaco"
+import listadoZodiaco from "./listados/listadoZodiaco"
 
 const calculoZodiaco = (fecha) => {
     if (fecha > 120 && fecha < 219) {

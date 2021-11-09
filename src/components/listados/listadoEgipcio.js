@@ -1,29 +1,29 @@
-import acuario from '../images/zodiaco/ico-acuario.png'
-import piscis from '../images/zodiaco/ico-piscis.png'
-import aries from '../images/zodiaco/ico-aries.png'
-import tauro from '../images/zodiaco/ico-tauro.png'
-import geminis from '../images/zodiaco/ico-geminis.png'
-import cancer from '../images/zodiaco/ico-cancer.png'
-import leo from '../images/zodiaco/ico-leo.png'
-import virgo from '../images/zodiaco/ico-virgo.png'
-import libra from '../images/zodiaco/ico-libra.png'
-import escorpio from '../images/zodiaco/ico-escorpio.png'
-import sagitario from '../images/zodiaco/ico-sagitario.png'
-import capricornio from '../images/zodiaco/ico-capricornio.png'
+import bastet from '../../images/zodiaco/bastet.png'
+import serket from '../../images/zodiaco/serket.png'
+import aries from '../../images/zodiaco/aries.png'
+import tauro from '../../images/zodiaco/tauro.png'
+import geminis from '../../images/zodiaco/geminis.png'
+import cancer from '../../images/zodiaco/cancer.png'
+import leo from '../../images/zodiaco/leo.png'
+import virgo from '../../images/zodiaco/virgo.png'
+import libra from '../../images/zodiaco/libra.png'
+import escorpio from '../../images/zodiaco/escorpio.png'
+import sagitario from '../../images/zodiaco/sagitario.png'
+import caprnio from '../../images/zodiaco/caprnio.png'
 
 
-const listadoZodiaco = {
-    Acuario: {
-        nombre: 'Acuario',
+const listadoEgipcio = {
+    Bastet: {
+        nombre: 'Hijos de Bastet',
         descripcion: 'Aire (fijo)',
         fecha: '21 de enero a 18 de febrero',
-        img: acuario
+        img: bastet
     },
-    Piscis: {
-        nombre: 'Piscis',
+    Serket: {
+        nombre: 'Hijos de Serket',
         descripcion: 'Agua (mutable)',
         fecha: '19 de febrero a 20 de marzo',
-        img: piscis
+        img: serket
     },
     Aries: {
         nombre: 'Aries',
@@ -87,4 +87,4 @@ const listadoZodiaco = {
     }
 };
 
-export default listadoZodiaco;
+export default listadoEgipcio;
