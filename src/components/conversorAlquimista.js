@@ -12,7 +12,7 @@ const conversorAlquimista = (numero) => {
     } else if (numero === 4) {
         return listadoAlquimista.Zinc
     } else if (numero === 5) {
-        return listadoAlquimista.Estaño
+        return listadoAlquimista.Estano
     } else if (numero === 6) {
         return listadoAlquimista.Plomo
     } else if (numero === 7) {

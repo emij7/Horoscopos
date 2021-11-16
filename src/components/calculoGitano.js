@@ -6,7 +6,7 @@ const calculoGitano = (fecha) => {
     } else if (fecha > 219 && fecha < 321) {
         return listadoGitano.Capilla
     } else if (fecha > 320 && fecha < 421) {
-        return listadoGitano.Puñal
+        return listadoGitano.Punal
     } else if (fecha > 420 && fecha < 521) {
         return listadoGitano.Corona
     } else if (fecha > 520 && fecha < 622) {

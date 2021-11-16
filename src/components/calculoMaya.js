@@ -18,7 +18,7 @@ const calculoMaya = (fecha) => {
     } else if (fecha > 725 && fecha < 823) {
         return listadoMaya.Murciélago
     } else if (fecha > 822 && fecha < 920) {
-        return listadoMaya.Escorpión
+        return listadoMaya.Escorpion
     } else if (fecha > 919 && fecha < 1018) {
         return listadoMaya.Venado
     } else if (fecha > 1017 && fecha < 1115) {

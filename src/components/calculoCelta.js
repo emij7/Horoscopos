@@ -38,7 +38,7 @@ const calculoCelta = (fecha) => {
         return listadoCelta.Pino
     } else if (fecha === 321) {
         return listadoCelta.Roble
-    } else if ((fecha > 300 && fecha < 311) || (fecha > 901 && fecha < 913)) {
+    } else if ((fecha > 300 && fecha < 311) || (fecha > 902 && fecha < 913)) {
         return listadoCelta.Sauce
     } else if ((fecha > 401 && fecha < 411) || (fecha > 1003 && fecha < 1014)) {
         return listadoCelta.Serbal

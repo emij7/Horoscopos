@@ -36,7 +36,7 @@ const listadoAlquimista = {
         descripcion: 'Personas impulsivas, serviciales y alegres.',
         img: zinc
     },
-    Estaño: {
+    Estano: {
         nombre: 'Estaño',
         descripcion: 'Inconstantes y sociables.',
         img: estano
