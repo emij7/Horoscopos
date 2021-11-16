@@ -4,7 +4,7 @@ const calculoMaya = (fecha) => {
     if (fecha > 109 && fecha < 207) {
         return listadoMaya.Mono
     } else if (fecha > 206 && fecha < 307) {
-        return listadoMaya.Halcón
+        return listadoMaya.Halcon
     } else if (fecha > 306 && fecha < 404) {
         return listadoMaya.Jaguar
     } else if (fecha > 403 && fecha < 502) {
@@ -16,7 +16,7 @@ const calculoMaya = (fecha) => {
     } else if (fecha > 626 && fecha < 726) {
         return listadoMaya.Tortuga
     } else if (fecha > 725 && fecha < 823) {
-        return listadoMaya.Murciélago
+        return listadoMaya.Murcielago
     } else if (fecha > 822 && fecha < 920) {
         return listadoMaya.Escorpion
     } else if (fecha > 919 && fecha < 1018) {
