@@ -1,13 +1,14 @@
 import React from 'react';
 import calculoGitano from './calculoGitano';
+import BoxHoroscopo from './BoxHoroscopo';
 
 const HorosGitano = (props) => {
     const fecha = parseInt(props.fecha)    
-    const horoscopoGitano = calculoGitano(fecha)
+    const tuZodiaco = calculoGitano(fecha)
+    const title = 'Horóscopo Gitano'
+    const explanation = 'Por fecha de nacimiento:'
     return (
-        <div>
-            <p>Horóscopo Gitano: {horoscopoGitano}</p>
-        </div>
+        <BoxHoroscopo titulo={title} signo={tuZodiaco} explicacion={explanation}/>
     );
 };
 

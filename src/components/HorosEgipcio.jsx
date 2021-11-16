@@ -1,13 +1,14 @@
 import React from 'react';
+import BoxHoroscopo from './BoxHoroscopo';
 import calculoEgipcio from './calculoEgipcio';
 
 const HorosEgipcio = (props) => {
     const fecha = parseInt(props.fecha)    
-    const horoscopoEgipcio = calculoEgipcio(fecha)
+    const tuZodiaco = calculoEgipcio(fecha)
+    const title = 'Horóscopo Egipcio'
+    const explanation = 'Por fecha de nacimiento:'
     return (
-        <div>
-            <p>Horóscopo egipcio: hijos de {horoscopoEgipcio}</p>
-        </div>
+        <BoxHoroscopo titulo={title} signo={tuZodiaco} explicacion={explanation}/>
     );
 };
 

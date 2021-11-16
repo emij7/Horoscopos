@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import AppDescription from './AppDescription';
 import ListadoSignos from './ListadoSignos';
 
 
@@ -25,7 +26,7 @@ const Input = () =>{
             }
             </section>
             {newDate === undefined?
-                null
+                <AppDescription/>
                 :<ListadoSignos fecha={newDate}/>}
         </div>
     )

@@ -15,7 +15,7 @@ const calculoCelta = (fecha) => {
     } else if ((fecha > 603 && fecha < 614) || (fecha > 1201 && fecha < 1212)) {
         return listadoCelta.Carpe
     } else if ((fecha > 514 && fecha < 525) || (fecha > 1111 && fecha < 1122)) {
-        return listadoCelta.Castaño
+        return listadoCelta.Castano
     } else if ((fecha > 208 && fecha < 219) || (fecha > 813 && fecha < 824)) {
         return listadoCelta.Cedro
     } else if ((fecha > 124 && fecha < 204) || (fecha > 725 && fecha < 805)) {

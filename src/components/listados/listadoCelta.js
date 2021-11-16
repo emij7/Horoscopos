@@ -24,7 +24,7 @@ const listadoCelta = {
     Alamo: {
         nombre: 'Álamo',
         descripcion: 'Virtud: Incertidumbre. Color de Suerte: Azul cielo.',
-        fecha: 'Del 4 al 8 de febrero y del 5 al 13 de agosto.',
+        fecha: 'del 4 al 8 de febrero y del 5 al 13 de agosto.',
         img: alamo
     },
     Abedul: {
@@ -36,31 +36,31 @@ const listadoCelta = {
     Abeto: {
         nombre: 'Abeto',
         descripcion: 'Virtud: Misterio. Color de Suerte: Púrpura.',
-        fecha: 'Del 2 al 11 de enero y del 5 al 14 de julio.',
+        fecha: 'del 2 al 11 de enero y del 5 al 14 de julio.',
         img: abeto
     },
     Arce: {
         nombre: 'Arce',
         descripcion: 'Virtud: Tolerancia. Color de Suerte: Rosa.',
-        fecha: 'Del 11 al 20 de abril y del 14 al 23 de octubre.',
+        fecha: 'del 11 al 20 de abril y del 14 al 23 de octubre.',
         img: arce
     },
     Avellano: {
         nombre: 'Avellano',
         descripcion: 'Virtud: Extraordinario. Color de Suerte: Marrón.',
-        fecha: 'Del 22 al 31 de marzo y del 24 de septiembre al 3 de octubre.',
+        fecha: 'del 22 al 31 de marzo y del 24 de septiembre al 3 de octubre.',
         img: avellano
     },
     Castano: {
         nombre: 'Castaño',
         descripcion: 'Virtud: Honestidad. Color de Suerte: Verde oscuro, castaño.',
-        fecha: 'Del 15 al 24 de mayo y del 12 al 21 de noviembre.',
+        fecha: 'del 15 al 24 de mayo y del 12 al 21 de noviembre.',
         img: castano
     },
     Fresno: {
         nombre: 'Fresno',
         descripcion: 'Virtud: Ambición. Color de Suerte: Blanco y negro.',
-        fecha: 'Del 25 de mayo al 3 de junio y del 22 de noviembre al 1 de diciembre.',
+        fecha: 'del 25 de mayo al 3 de junio y del 22 de noviembre al 1 de diciembre.',
         img: fresno
     },
     Haya: {
@@ -72,43 +72,43 @@ const listadoCelta = {
     Carpe: {
         nombre: 'Carpe',
         descripcion: 'Virtud: Elegancia. Color de Suerte: Todos los colores de la naturaleza.',
-        fecha: 'Del 3 al 13 de junio y del 2 al 11 de diciembre.',
+        fecha: 'del 3 al 13 de junio y del 2 al 11 de diciembre.',
         img: carpe
     },
     Tilo: {
         nombre: 'Tilo',
         descripcion: 'Virtud: Duda. Color de Suerte: Verde oscuro.',
-        fecha: 'Del 11 al 20 de marzo y del 13 al 22 de septiembre.',
+        fecha: 'del 11 al 20 de marzo y del 13 al 22 de septiembre.',
         img: tilo
     },
     Manzano: {
         nombre: 'Manzano',
         descripcion: 'Virtud: Amor. Color de Suerte: Rojo.',
-        fecha: 'Del 23 de diciembre al 1 de enero y del 24 de junio al 4 de julio',
+        fecha: 'del 23 de diciembre al 1 de enero y del 24 de junio al 4 de julio',
         img: manzano
     },
     Olmo: {
         nombre: 'Olmo',
         descripcion: 'Virtud: Nobleza. Color de Suerte: Amarillo.',
-        fecha: 'Del 12 al 24 de enero y del 12 al 24 de julio.',
+        fecha: 'del 12 al 24 de enero y del 12 al 24 de julio.',
         img: olmo
     },
     Cedro: {
         nombre: 'Cedro',
         descripcion: 'Virtud: Confianza. Color de Suerte: Verde turquesa.',
-        fecha: 'Del 9 al 18 de febrero y del 14 al 23 de agosto.',
+        fecha: 'del 9 al 18 de febrero y del 14 al 23 de agosto.',
         img: cedro
     },
     Cipres: {
         nombre: 'Ciprés',
         descripcion: 'Virtud: Fidelidad. Color de Suerte: Naranja.',
-        fecha: 'Del 25 de enero al 3 de febrero y del 26 de julio al 4 de agosto.',
+        fecha: 'del 25 de enero al 3 de febrero y del 26 de julio al 4 de agosto.',
         img: cipres
     },
     Nogal: {
         nombre: 'Nogal',
         descripcion: 'Virtud: Pasión. Color de Suerte: Azul.',
-        fecha: 'Del 21 al 30 de abril y del 24 de octubre al 11 de noviembre.',
+        fecha: 'del 21 al 30 de abril y del 24 de octubre al 11 de noviembre.',
         img: nogal
     },
     Olivo: {
@@ -120,7 +120,7 @@ const listadoCelta = {
     Pino: {
         nombre: 'Pino',
         descripcion: 'Virtud: Organización. Color de Suerte: Violeta.',
-        fecha: 'Del 19 al 28 (y 29) de febrero y del 24 de agosto al 2 de septiembre.',
+        fecha: 'del 19 al 28 (y 29) de febrero y del 24 de agosto al 2 de septiembre.',
         img: pino
     },
     Roble: {
@@ -132,13 +132,13 @@ const listadoCelta = {
     Sauce: {
         nombre: 'Sauce llorón',
         descripcion: 'Virtud: Melancolía. Color de Suerte: Dorado.',
-        fecha: 'Del 1 al 10 de marzo y del 3 al 12 de septiembre.',
+        fecha: 'del 1 al 10 de marzo y del 3 al 12 de septiembre.',
         img: sauce
     },
     Higuera: {
         nombre: 'Higuera',
         descripcion: 'Virtud: Sensibilidad. Color de Suerte: Violeta.',
-        fecha: 'Del 14 al 23 de junio y del 12 al 21 de diciembre.',
+        fecha: 'del 14 al 23 de junio y del 12 al 21 de diciembre.',
         img: higuera
     },
     Serbal: {

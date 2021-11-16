@@ -7,6 +7,7 @@ import HorosGitano from "./HorosGitano"
 import HorosHindu from "./HorosHindu"
 import HorosMaya from "./HorosMaya"
 import HorosZodiaco from "./HorosZodiaco"
+// import PropTypes from "prop-types"
 
 const ListadoSignos = (props) =>{
     let regNum = /\d/g 
@@ -28,3 +29,7 @@ const ListadoSignos = (props) =>{
     )
 }
 export default ListadoSignos
+
+// ListadoSignos.propTypes = {
+//     fecha: PropTypes.string 
+// }

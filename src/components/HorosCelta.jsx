@@ -6,7 +6,7 @@ const HorosCelta = (props) => {
     const fecha = parseInt(props.fecha)    
     const tuZodiaco = calculoCelta(fecha)
     const title = 'Horóscopo Celta'
-    const explanation = 'Por fecha de nacimiento'
+    const explanation = 'Por fecha de nacimiento:'
     return (
         <BoxHoroscopo titulo={title} signo={tuZodiaco} explicacion={explanation}/>
     );
